@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #111111;
+    color: white;
+}
+
+.ver-flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 50px;
+}
+
+.flex-container>* {
+    flex: 0 0 auto;
+    height: 300px;
+    width: 300px;
+}
+
+.empha-text {
+    background-color: grey;
+}
+
+#result {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5;
+}
+
+#rock {
+    background-image: url(./static/rock.svg)
+}
+
+#paper {
+    background-image: url(./static/paper.svg)
+}
+
+#scissors {
+    background-image: url(./static/scissors.svg)
+}
+
+#reset-btn {
+    padding: 30px 200px;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+#press-icon {
+    border:1px solid black;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}

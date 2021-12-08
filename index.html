@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="rock-paper-scissors.js" defer></script>
 </head>
 <body>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <div id="result"></div>
+    <div class="ver-flex-container">
+        <div class="flex-container">
+            <button id="rock"></button>
+            <button id="paper"></button>
+            <button id="scissors"></button>
+        </div>
+        <div id="result"></div>
+        <div><button id="reset-btn">Restart the game<span id="press-icon">&darr;</span></button></div>
+    </div>
 </body>
 </html>
